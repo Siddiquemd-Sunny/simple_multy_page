@@ -1,0 +1,259 @@
+/* commen code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+}
+img{
+   width: 100%;
+}
+/*for float*/
+.fix:before, .fix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*for button*/
+.btn {
+    padding: 11px 11px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: tomato;
+    color: #fff;
+    border-radius: 4px;
+    transition: .3s;
+}
+.btn:hover{
+    background-color: #fff;
+    color: tomato;
+}
+
+
+/*full area*/
+.area{
+    margin: 0 auto;
+    width: 1087px;
+}
+
+.header{
+    background-color: #ddd;
+    padding: 13px;
+}
+.logo{
+    float: left;
+    width: 321px;
+}
+.logo a{}
+.logo img {
+    /*
+    padding: 20px 22px;*/
+}
+
+.menu {
+    float: right;
+    width: 629px;
+    /*text-align: right;*/
+}
+.menu ul{
+    text-align: right;
+    /*list-style: none;*/
+    margin-top: 8px ;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    text-transform: capitalize;
+    
+    margin-right: 20px;
+    margin: 20px 0;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #333;
+    display: block;
+    border-radius: 2px;
+    transition: .3s;
+}
+
+/*.menu ul li a:last-child{
+    margin-right: 0;
+
+}*/
+
+.menu ul li a:hover{
+    background-color: tomato;
+    color: #fff;
+}
+/*banner css*/
+
+.banner{
+
+}
+.banner img{}
+
+/*service css*/
+
+.services{}
+.services h4 {
+    text-align: center;
+    padding: 26px;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.single_service {
+    width: 339px;
+    display: inline-block;
+    padding: 20px;
+    background-color: teal;
+    margin-right: 31px;
+    padding-bottom: 38px;
+}
+.single_service:last-child{
+    margin-right: 0;
+}
+.single_service h4 {
+    font-size: 24px;
+}
+.single_service img{}
+.single_service p {
+    text-align: justify;
+    padding: 20px 0;
+}
+.single_service a{
+    margin-bottom: 20px;
+}
+
+/*about css*/
+.about{}
+.about_left {
+    float: left;
+    width: 660px;
+    padding: 43px 0px;
+    margin-right: 20px;
+}
+.about_left h4, .sidebar_menu h4 {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 14px 0;
+}
+.about_left p {
+    text-align: justify;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+.about_left a{
+    border: 1px solid tomato;
+}
+
+.sidebar_menu {
+    float: right;
+    width: 304px;
+    padding: 41px 0;
+}
+
+.sidebar_menu ul {
+    list-style: none;
+}
+.sidebar_menu ul li {
+    background-image: url("../image/arrow.png");
+    margin-bottom: 12px;
+    background-repeat: no-repeat;
+    background-position: -6px 0px;
+    border-bottom: 1px solid #333;
+}
+.sidebar_menu ul li a {
+    text-decoration: none;
+    color: #333;
+    text-transform: capitalize;
+    font-size: 19px;
+    margin-left: 25px;
+    transition: .3s;
+}
+.sidebar_menu ul li a:hover{
+    color: tomato;
+}
+/*footer css*/
+.footer{
+    background-color: teal;
+}
+.footer div{
+    font-size: 18px;
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+}
+
+/*about page css code*/
+.about_banner {
+    background-size: cover;
+    background-position: center;
+    padding: 115px;
+    position: relative;
+    z-index: 2;
+}
+.about_banner:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    opacity: .75;
+    z-index: -1;
+}
+.about_banner h2 {
+    text-align: center;
+    font-size: 55px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+/*about section*/
+.about_page_p p {
+    margin-bottom: 22px;
+}
+
+/*service page css code */
+
+.service_banner {
+    background-size: cover;
+    background-position: center;
+    padding: 114px;
+    position: relative;
+    z-index: 2;
+}
+.service_banner:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    LEFT: 0;
+    background-color: #333;
+    opacity: .75;
+    z-index: -1;
+}
+.service_banner h2 {
+    text-align: center;
+    font-size: 55px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+/*about page single service*/
+.about_single {
+    width: 245px;
+    padding-bottom: 33px;
+}
+.btn_about{}
+
+.about_servic_link1{}
+.about_servic_link2 {
+    margin: 35px 0;
+}
